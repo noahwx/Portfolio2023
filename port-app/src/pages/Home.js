@@ -34,13 +34,20 @@ const Home = () => {
             </div>
             <div className="mobile-wrapper">
                 <div className="mobile-grid-item-1">
-                    1
+                   <div className="mobile-heading-items">
+                        <h1 className="mobile-heading">Development.</h1>
+                        <h1 className="mobile-heading">Analysis.</h1>
+                        <h1 className="mobile-heading">Design.</h1>
+                   </div>
+                   <div className="background">
+                        <img className="background" src="https://images.unsplash.com/photo-1614522562493-455408036ea9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" alt=""/>
+                    </div>
                 </div>
                 <div className="mobile-grid-item-2">
                     2
                 </div>
                 <div className="mobile-grid-item-3">
-                    3
+                    <footer className="footer">Designed By Noah Fontenette © 2023</footer>
                 </div>
             </div>
         </>
