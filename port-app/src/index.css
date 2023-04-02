@@ -420,8 +420,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
     grid-column-gap: 5px;
-    grid-row-gap: 5px; 
-    overflow: scroll;
+    grid-row-gap: 5px;
   }
 
   .mobile-grid-item-1 {
@@ -457,5 +456,21 @@ body {
     height: 100%;
     z-index: -1;
     background: var(--bg);
+  }
+
+  .mobile-experience-section {
+    display: block;
+    position: relative;
+    z-index: 0;
+    margin-top: 5em;
+    margin-left: 1em;
+  }
+
+  .experience-heading {
+    margin-left: 0.5em;
+  }
+
+  .experience-items {
+    margin-left: 1.5em;
   }
 }

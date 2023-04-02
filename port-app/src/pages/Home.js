@@ -44,7 +44,14 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="mobile-grid-item-2">
-                    2
+                    <section className="mobile-experience-section">
+                        <h1 className="experience-heading">Experience</h1>
+                        <div className="experience-items">
+                            <h1 className="experience-item">Data Analysis</h1>
+                            <h1 className="experience-item">Web Development</h1>
+                            <h1 className="experience-item">Graphic Design</h1>
+                        </div>
+                    </section>
                 </div>
                 <div className="mobile-grid-item-3">
                     <footer className="footer">Designed By Noah Fontenette © 2023</footer>
