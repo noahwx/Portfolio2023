@@ -10,6 +10,26 @@ const Header = () => {
         setOpen(!open);
     };
 
+    const handleMenuOne = () => {
+        setOpen(false);
+    };
+    
+    const handleMenuTwo = () => {
+        setOpen(false);
+    };
+
+    const handleMenuThree = () => {
+        setOpen(false);
+    };
+
+    const handleMenuFour = () => {
+        setOpen(false);
+    };
+
+    const handleMenuFive = () => {
+        setOpen(false);
+    };
+    
     return ( 
         <>
             <div className="Nav">
@@ -26,11 +46,11 @@ const Header = () => {
                 <NavLink to='/' className='NavLogo' onClick={handleOpen}> <img src={logo} alt="logo" /> </NavLink>
                 { open ? (
                     <div className='NavItems'>
-                        <NavLink to='/' className='NavItem'>Home</NavLink>
-                        <NavLink to='/pages/About' className='NavItem'>About</NavLink>
-                        <NavLink to='/pages/Work' className='NavItem'>Work</NavLink>
-                        <NavLink to='/pages/Blog' className='NavItem'>Blog</NavLink>
-                        <NavLink to='/pages/Contact' className='NavItem'>Contact</NavLink>
+                        <NavLink to='/' className='NavItem' onClick={handleMenuOne}>Home</NavLink>
+                        <NavLink to='/pages/About' className='NavItem' onClick={handleMenuTwo}>About</NavLink>
+                        <NavLink to='/pages/Work' className='NavItem' onClick={handleMenuThree}>Work</NavLink>
+                        <NavLink to='/pages/Blog' className='NavItem' onClick={handleMenuFour}>Blog</NavLink>
+                        <NavLink to='/pages/Contact' className='NavItem' onClick={handleMenuFive}>Contact</NavLink>
                     </div>
                 ) : null }
             </div>
