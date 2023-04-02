@@ -365,6 +365,7 @@ body {
     align-items: center;
     margin: auto 0;
     width: 27em;
+    transition: none;
   }
 
   .NavLogo img {
@@ -378,7 +379,7 @@ body {
     font-size: clamp(1.5rem, 2vw, 2rem);
     font-weight: 500;
     width: 100%;
-    height: 45%;
+    height: 42%;
     background-color: #161616;
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.8));
     animation: fadeIn 0.5s ease-in-out;
@@ -424,5 +425,15 @@ body {
   .mobile-grid-item-3 {
     grid-area: 5 / 1 / 6 / 6;
     height: 10vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .NavLogo {
+    width: 25.5em;
+  }
+
+  .NavLogo img {
+    width: 8em;
   }
 }
