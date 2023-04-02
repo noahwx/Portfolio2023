@@ -395,10 +395,14 @@ body {
   }
 
   .NavItem.active {
+    color: var(--bg);
+    background: var(--text);
+  }
+
+  .NavItem:hover {
     color: var(--text);
     background: none;
-    border-left: 5px solid var(--text);
-  }
+  } 
 
   @keyframes fadeIn {
     0% {
