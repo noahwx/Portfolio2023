@@ -571,6 +571,11 @@ body {
     top: 2em;
   }
 
+  .about {
+    position: relative;
+    z-index: -1;
+  }
+
   .page-para {
     background-color: red;
     display: block;
