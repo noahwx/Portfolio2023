@@ -577,14 +577,13 @@ body {
   }
 
   .page-para {
-    background-color: red;
     display: block;
     font-size: clamp(1.2rem, 2vw, 1.5rem);
     text-align: left;
   }
 
   .about-img1 {
-    top: 35em;
+    top: 40em;
     left: 2em;
     height: 25%;
     z-index: -1;
@@ -592,12 +591,12 @@ body {
   }
 
   .about-img2 {
-    top: 30em;
+    top: 35em;
     height: 25%;
   }
 
   .about-img3 {
-    top: 25em;
+    top: 30em;
     right: 2em;
     height: 25%;
     filter: grayscale(0%);
