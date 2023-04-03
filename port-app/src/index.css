@@ -491,12 +491,22 @@ body {
     }
   }
 
+  @keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
   .mobile-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
     grid-column-gap: 5px;
     grid-row-gap: 5px;
+    animation: appear 0.5s ease-in-out;
   }
 
   .mobile-grid-item-1 {
@@ -558,7 +568,7 @@ body {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 6em;
+    top: 2em;
   }
 
   .page-para {
@@ -570,7 +580,7 @@ body {
   .about-img1 {
     top: 35em;
     left: 2em;
-    height: 20%;
+    height: 25%;
     filter: grayscale(0%);
   }
 
@@ -582,7 +592,7 @@ body {
   .about-img3 {
     top: 25em;
     right: 2em;
-    height: 20%;
+    height: 25%;
     filter: grayscale(0%);
   }
 }

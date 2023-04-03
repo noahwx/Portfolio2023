@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 
 
-// Version 0.0.570
+// Version 0.0.580
 
 function App() {
   return (
