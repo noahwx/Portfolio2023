@@ -587,6 +587,7 @@ body {
     top: 35em;
     left: 2em;
     height: 25%;
+    z-index: -1;
     filter: grayscale(0%);
   }
 
@@ -600,5 +601,6 @@ body {
     right: 2em;
     height: 25%;
     filter: grayscale(0%);
+    z-index: -1;
   }
 }
