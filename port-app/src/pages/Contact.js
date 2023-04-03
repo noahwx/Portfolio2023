@@ -23,13 +23,17 @@ const Contact = () => {
             </div>
             <div className="mobile-wrapper">
                 <div className="mobile-grid-item-1">
-                    1
+                    <h1 className="contact-mobile-heading">Contact</h1>
                 </div>
                 <div className="mobile-grid-item-2">
-                    2
+                    <div className="mobile-contact-items">
+                        <a href="mailto:noahfontenette@outlook.com" className="contact-item">Email</a>
+                        <a href="https://twitter.com/noahf97" className="contact-item" target="_blank" rel="noopener noreferrer">Twitter</a> 
+                        <a href="https://www.instagram.com/noahf.97/" className="contact-item" target="_blank" rel="noopener noreferrer">Instagram</a> 
+                    </div>
                 </div>
                 <div className="mobile-grid-item-3">
-                    3
+                    <footer className="footer">Designed By Noah Fontenette © 2023</footer>
                 </div>
             </div>
         </>

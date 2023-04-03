@@ -18,7 +18,7 @@ const Blog = () => {
             </div>
             <div className="mobile-wrapper">
                 <div className="mobile-grid-item-1">
-                    1
+                    <h1 className="mobile-blog-heading">Blog</h1>
                 </div>
                 <div className="mobile-grid-item-2">
                     2

@@ -685,4 +685,25 @@ body {
   .mobile-work-bg img {
     max-width: 100%;
   }
+
+  .mobile-blog-heading {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 2em;
+    font-size: clamp(2.5rem, 4vw, 2.5rem);
+  }
+
+  .contact-mobile-heading {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10em;
+    font-size: clamp(2.5rem, 4vw, 2.5rem);
+  }
+
+  .mobile-contact-items {
+    display: flex;
+    justify-content: center;
+  }
 }
