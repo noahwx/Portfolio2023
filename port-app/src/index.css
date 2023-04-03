@@ -622,6 +622,7 @@ body {
     justify-content: center;
     position: relative;
     top: 2.5em;
+    padding-bottom: 2em;
   }
 
   .mobile-work-heading {
