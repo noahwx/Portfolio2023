@@ -573,14 +573,12 @@ body {
 
   .about {
     position: relative;
-    z-index: -1;
+    z-index: 0;
   }
 
   .page-para {
     background-color: red;
     display: block;
-    position: relative;
-    z-index: -2;
     font-size: clamp(1.2rem, 2vw, 1.5rem);
     text-align: left;
   }
