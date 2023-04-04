@@ -484,4 +484,46 @@ footer {
   .grid-item-3 {
     grid-area: 4 / 1 / 5 / 2;
   }
+
+  .Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+  }
+
+  .Typewriter__wrapper {
+    font-size: clamp(2rem, 4vw, 2rem);
+    font-weight: 700;
+    color: var(--text);
+    padding-left: 1em;
+  }
+  
+  .Typewriter__cursor {
+    color: var(--text);
+    font-size: clamp(2rem, 4vw, 2rem);
+    font-weight: 700;
+  }
+
+  .background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    max-width: 100%;
+    mask-image: 
+      linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0)), 
+      linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    mask-size: 110% 80%;
+    mask-repeat: no-repeat;
+    mask-composite: intersect;
+  }
+
+  .background img {
+    width: 200%;
+    height: 100%;
+  }
 }

@@ -27,7 +27,9 @@ const About = () => {
                 </div>
             </div>
             <div className="mobile-wrapper">
-                
+                <div className="grid-item-1">1</div>
+                <div className="grid-item-2">2</div>
+                <div className="grid-item-3">3</div>
             </div>
         </>
      );
