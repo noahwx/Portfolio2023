@@ -5,8 +5,8 @@ import './index.css';
 import Header from './components/Header';
 import Main from './components/Main';
 
-
-// Version 0.0.900
+// VK      M.I.SSS
+// Version 0.7.001
 
 function App() {
   return (
