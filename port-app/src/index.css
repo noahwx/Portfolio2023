@@ -119,13 +119,11 @@ footer {
 }
 
 .grid-item-3 {
-  grid-area: 5 / 4 / 8 / 7; 
-  background-color: #ccc;
+  grid-area: 5 / 4 / 8 / 7;
 }
 
 .grid-item-4 {
   grid-area: 5 / 7 / 8 / 10;
-  background-color: #ccc;
 }
 
 .Home {
@@ -213,6 +211,185 @@ footer {
   color: var(--text);
   text-align: left;
   padding: 2em;
+}
+
+.About {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.Image {
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.Image img {
+  width: 100%;
+  height: 100%;
+  transition: all 5s ease-in-out;
+}
+
+.Image img:hover {
+  transform: scale(1.5);
+}
+
+.About-Heading {
+  display: flex;
+  justify-content: center;
+  font-size: clamp(4rem, 8vw, 4rem);
+  font-weight: 700;
+  color: var(--text);
+  padding-bottom: 1em;
+}
+
+.About-Paragraph {
+  font-size: clamp(1rem, 2vw, 1rem);
+  font-weight: 400;
+  color: var(--text);
+  text-align: left;
+}
+
+.Work {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.Work-Heading {
+  display: flex;
+  justify-content: center;
+  font-size: clamp(4rem, 8vw, 4rem);
+  font-weight: 700;
+  color: var(--text);
+  padding-bottom: 1em;
+}
+
+.Work-Content {
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  height: 150vh;
+  padding-left: 12em;
+  padding-right: 12em;
+  overflow: scroll;
+}
+
+.Work-Item {
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #F5F5F5;
+  display: block;
+  height: 25vh;
+  width: 100%;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.Work-Item-Content {
+  display: block;
+  flex-direction: row;
+  justify-content: start;
+  align-items: left;
+  padding: 1em;
+  position: relative;
+  z-index: 99;
+  transition: all 0.5s ease-in-out;
+}
+
+.Work-Item-Heading {
+  font-size: clamp(2rem, 4vw, 2rem);
+  font-weight: 700;
+  color: var(--text);
+}
+
+.Work-Item-Text {
+  font-size: clamp(1rem, 2vw, 1rem);
+  font-weight: 400;
+  text-align: left;
+  color: var(--text);
+}
+
+.Work-Item-Image {
+  position: relative;
+  margin-top: -30%;
+  z-index: 0;
+  max-width: 100%;
+}
+
+.Work-Item-Image img {
+  width: 100%;
+  height: 100%;
+  transition: all 5s ease-in-out;
+}
+
+.Work-Link {
+  text-decoration: none;
+}
+
+.Work-Item:hover {
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.Work-Item:hover > .Work-Item-Image img {
+  transform: scale(1.5);
+}
+
+.Work-Item:hover > .Work-Item-Content {
+  transform: translateY(40%);
+}
+
+.Contact {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.Contact-Heading {
+  display: flex;
+  justify-content: center;
+  font-size: clamp(4rem, 8vw, 4rem);
+  font-weight: 700;
+  color: var(--text);
+  padding-bottom: 1em;
+}
+
+.Contact-Content {
+  display: block;
+  justify-content: center;
+  position: relative;
+  width: 10em;
+  height: 20em;
+  padding-left: 35em;
+}
+
+.Contact-Link {
+  text-align: center;
+  position: relative;
+  float: left;
+  font-size: clamp(3rem, 6vw, 3rem);
+  color: var(--text);
+  text-decoration: none;
+  padding: 0.2em;
+  transition: all 0.5s ease;
+}
+
+.Contact-Link:hover {
+  color: var(--bg);
+  box-shadow: inset 7em 0 0 0 var(--text);
 }
 
 .MobileNav {
