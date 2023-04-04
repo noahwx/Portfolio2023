@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 
 
-// Version 0.0.802
+// Version 0.0.200
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Favicon url={logo} />
       <Header />
       <Main />
+      <footer>Designed By Noah Fontenette © 2023</footer>
     </>
   );
 }
