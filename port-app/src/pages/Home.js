@@ -41,6 +41,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="mobile-wrapper">
+                
                 <div className="grid-item-1">
                     <div className="Home">
                         <Typewriter
