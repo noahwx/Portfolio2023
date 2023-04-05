@@ -396,6 +396,10 @@ footer {
   display: none;
 }
 
+.mobile-wrapper {
+  display: none;
+}
+
 /* Mobile */
 
 @media (max-width: 1000px) {

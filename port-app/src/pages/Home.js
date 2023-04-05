@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 const Home = () => {
     return ( 
         <>
+
             <div className="wrapper">
                 <div className="grid-item-1">
                     <div className="Home">
@@ -40,8 +41,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
             <div className="mobile-wrapper">
-                
                 <div className="grid-item-1">
                     <div className="Home">
                         <Typewriter
@@ -61,6 +62,7 @@ const Home = () => {
                 <div className="grid-item-2">2</div>
                 <div className="grid-item-3">3</div>
             </div>
+        
         </>
     );
 }
