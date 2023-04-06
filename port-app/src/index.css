@@ -755,7 +755,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 60vh;
     border-radius: 0;
     background: none;
   }
@@ -765,7 +765,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 60vh;
     padding-top: 2em;
     border-radius: 0;
     background: none;
