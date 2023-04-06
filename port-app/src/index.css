@@ -674,8 +674,8 @@ footer {
   }
 
   .About-Image-1 {
-    position: absolute;
-    top: 30vh;
+    position: relative;
+    top: 0;
     right: 0;
     z-index: -1;
     max-width: 100%;
@@ -688,8 +688,8 @@ footer {
   }
 
   .About-Image-2 {
-    position: absolute;
-    top: 20vh;
+    position: relative;
+    top: 0;
     left: 0;
     z-index: -1;
     max-width: 100%;
@@ -702,8 +702,8 @@ footer {
   }
 
   .About-Image-3 {
-    position: absolute;
-    top: 20vh;
+    position: relative;
+    top: 0;
     right: 0;
     z-index: -1;
     max-width: 100%;
@@ -716,8 +716,8 @@ footer {
   }
 
   .About-Image-4 {
-    position: absolute;
-    top: 20vh;
+    position: relative;
+    top: 0;
     left: 0;
     z-index: -1;
     max-width: 100%;
@@ -730,8 +730,8 @@ footer {
   }
 
   .About-Image-5 {
-    position: absolute;
-    top: 20vh;
+    position: relative;
+    top: 0;
     right: 0;
     z-index: -1;
     max-width: 100%;
