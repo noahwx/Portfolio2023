@@ -44,7 +44,7 @@ const Home = () => {
             </div>
 
             <div className="mobile-wrapper">
-                <section className="section-">
+                <section className="section-1">
                     <div className="Home">
                         <Typewriter
                             options={{
