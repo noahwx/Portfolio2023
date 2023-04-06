@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import ContactForm from "../components/ContactForm";
 
 const Home = () => {
     return ( 
@@ -75,7 +76,12 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                <section className="section-3">3</section>
+                <section className="section-3">
+                    <div className="Contact">
+                        <h2 className="Contact-Heading">Contact Me Today</h2>
+                        <ContactForm />
+                    </div>
+                </section>
             </div>
         
         </>

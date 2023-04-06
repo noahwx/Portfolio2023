@@ -559,4 +559,58 @@ footer {
     color: var(--text);
     padding-top: 1em;
   }
+
+  .Contact {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+  }
+
+  .Contact-Heading {
+    padding-top: 1em;
+    font-size: clamp(2rem, 4vw, 2rem);
+    font-weight: 700;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+  }
+
+  label {
+    font-size: clamp(2rem, 4vw, 2rem);
+    font-weight: 700;
+    color: var(--text);
+    padding-top: 0.2em;
+    padding-bottom: 0.5em;
+  }
+
+  input {
+    font-size: clamp(2rem, 4vw, 2rem);
+    font-weight: 500;
+    color: var(--text);
+    padding: 0.2em;
+    border: none;
+    border-bottom: 2px solid var(--text);
+    background-color: var(--bg);
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  textarea {
+    font-size: clamp(2rem, 4vw, 2rem);
+    font-weight: 500;
+    color: var(--text);
+    padding: 0.2em;
+    border: none;
+    border-bottom: 2px solid var(--text);
+    background-color: var(--bg);
+    width: 100%;
+    margin-bottom: 1em;
+  }
 }
