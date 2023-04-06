@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 
 // VK      M.I.SSS
-// Version 0.7.203
+// Version 0.7.204
 
 function App() {
   return (
