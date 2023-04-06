@@ -578,7 +578,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0.5em;
+    padding: 1em;
   }
 
   label {
@@ -586,7 +586,7 @@ footer {
     font-weight: 500;
     color: var(--text);
     padding-top: 0.2em;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.2em;
   }
 
   input {
@@ -599,10 +599,6 @@ footer {
     background-color: var(--bg);
     width: 100%;
     margin-bottom: 1em;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    outline: none;
   }
 
   textarea {
@@ -614,10 +610,6 @@ footer {
     border-bottom: 2px solid var(--text);
     background-color: var(--bg);
     width: 100%;
-    margin-bottom: 2em;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    outline: none;
+    margin-bottom: 1em;
   }
 }
