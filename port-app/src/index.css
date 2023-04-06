@@ -415,12 +415,13 @@ footer {
     background-color: var(--bg);
     color: var(--text);
     animation: fadeIn 0.5s ease-in-out;
+    overflow: hidden;
   }
 
   footer {
     position: absolute;
     bottom: 0em;
-    height: 10em;
+    height: 15em;
     mask-image: linear-gradient(to bottom, transparent 0%, black 100%);
   }
 
