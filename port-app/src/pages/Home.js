@@ -59,7 +59,22 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                <section className="section-2">2</section>
+                <section className="section-2">
+                    <div className="Experince">
+                        <div className="Experince-Item">
+                            <h2 className="Experince-Heading">Data Analysis</h2>
+                            <p className="Experince-Paragraph">Description</p>
+                        </div>
+                        <div className="Experince-Item">
+                            <h2 className="Experince-Heading">Front-End Development</h2>
+                            <p className="Experince-Paragraph">Description</p>
+                        </div>
+                        <div className="Experince-Item">
+                            <h2 className="Experince-Heading">Graphic Design</h2>
+                            <p className="Experince-Paragraph">Description</p>
+                        </div>
+                    </div>
+                </section>
                 <section className="section-3">3</section>
             </div>
         
