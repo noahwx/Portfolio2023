@@ -26,19 +26,19 @@ const Home = () => {
                 <div className="grid-item-2">
                     <div className="Experince-1">
                         <h2 className="Experince-Heading">Data Analysis</h2>
-                        <p className="Experince-Paragraph">Description</p>
+                        <p className="Experince-Paragraph">As a data analyst, I've honed my skills in collecting, organizing, and analyzing large data sets to extract meaningful insights. I'm proficient in various data analysis tools and techniques, including Excel, SQL, and Python. I love using data to drive informed decision-making and help organizations achieve their goals.</p>
                     </div>
                 </div>
                 <div className="grid-item-3">
                     <div className="Experince-2">
                         <h2 className="Experince-Heading">Front-End Development</h2>
-                        <p className="Experince-Paragraph">Description</p>
+                        <p className="Experince-Paragraph">As a front-end developer, I've built various websites and web applications using HTML, CSS, JavaScript, and multiple frameworks such as React. I'm dedicated to creating responsive, intuitive, and visually appealing user interfaces that deliver a seamless experience to users.</p>
                     </div>
                 </div>
                 <div className="grid-item-4">
                     <div className="Experince-3">
                         <h2 className="Experince-Heading">Graphic Design</h2>
-                        <p className="Experince-Paragraph">Description</p>
+                        <p className="Experince-Paragraph">Lastly, I have a strong background in graphic design, with experience creating logos, branding materials, marketing collateral, and more. I'm skilled in using design software such as Adobe Photoshop, Illustrator, and InDesign, and I have a keen eye for typography, color, and composition.</p>
                     </div>
                 </div>
             </div>
@@ -64,15 +64,15 @@ const Home = () => {
                     <div className="Experince">
                         <div className="Experince-Item">
                             <h2 className="Experince-Heading">Data Analysis</h2>
-                            <p className="Experince-Paragraph">Description</p>
+                            <p className="Experince-Paragraph">As a data analyst, I've honed my skills in collecting, organizing, and analyzing large data sets to extract meaningful insights. I'm proficient in various data analysis tools and techniques, including Excel, SQL, and Python. I love using data to drive informed decision-making and help organizations achieve their goals.</p>
                         </div>
                         <div className="Experince-Item">
                             <h2 className="Experince-Heading">Front-End Development</h2>
-                            <p className="Experince-Paragraph">Description</p>
+                            <p className="Experince-Paragraph">As a front-end developer, I've built various websites and web applications using HTML, CSS, JavaScript, and multiple frameworks such as React. I'm dedicated to creating responsive, intuitive, and visually appealing user interfaces that deliver a seamless experience to users.</p>
                         </div>
                         <div className="Experince-Item">
                             <h2 className="Experince-Heading">Graphic Design</h2>
-                            <p className="Experince-Paragraph">Description</p>
+                            <p className="Experince-Paragraph">Lastly, I have a strong background in graphic design, with experience creating logos, branding materials, marketing collateral, and more. I'm skilled in using design software such as Adobe Photoshop, Illustrator, and InDesign, and I have a keen eye for typography, color, and composition.</p>
                         </div>
                     </div>
                 </section>
