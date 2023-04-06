@@ -599,6 +599,10 @@ footer {
     background-color: var(--bg);
     width: 100%;
     margin-bottom: 1em;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
   }
 
   textarea {
@@ -611,5 +615,9 @@ footer {
     background-color: var(--bg);
     width: 100%;
     margin-bottom: 2em;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
   }
 }
