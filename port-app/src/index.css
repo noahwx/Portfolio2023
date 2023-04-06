@@ -569,7 +569,6 @@ footer {
   }
 
   .Contact-Heading {
-    padding-top: 1em;
     font-size: clamp(2rem, 4vw, 2rem);
     font-weight: 700;
   }
