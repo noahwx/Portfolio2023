@@ -78,7 +78,7 @@ const Home = () => {
                 </section>
                 <section className="section-3">
                     <div className="Contact">
-                        <h2 className="Contact-Heading">Contact Me Today</h2>
+                        <h2 className="Contact-Heading">Let's Work</h2>
                         <ContactForm />
                     </div>
                 </section>
