@@ -583,15 +583,15 @@ footer {
   }
 
   label {
-    font-size: clamp(2rem, 4vw, 2rem);
-    font-weight: 700;
+    font-size: clamp(1.5rem, 3vw, 1.5rem);
+    font-weight: 500;
     color: var(--text);
     padding-top: 0.2em;
     padding-bottom: 0.5em;
   }
 
   input {
-    font-size: clamp(2rem, 4vw, 2rem);
+    font-size: clamp(1.2rem, 2vw, 1.2rem);
     font-weight: 500;
     color: var(--text);
     padding: 0.2em;
@@ -603,7 +603,7 @@ footer {
   }
 
   textarea {
-    font-size: clamp(2rem, 4vw, 2rem);
+    font-size: clamp(1rem, 2vw, 1rem);
     font-weight: 500;
     color: var(--text);
     padding: 0.2em;
@@ -611,6 +611,6 @@ footer {
     border-bottom: 2px solid var(--text);
     background-color: var(--bg);
     width: 100%;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
   }
 }
