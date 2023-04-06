@@ -418,8 +418,10 @@ footer {
   }
 
   footer {
-    position: fixed;
-    bottom: 5em;
+    position: absolute;
+    bottom: 0em;
+    height: 15em;
+    mask-image: linear-gradient(to bottom, transparent 0%, black 100%);
   }
 
   .MobileNav {
