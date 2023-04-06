@@ -452,6 +452,7 @@ footer {
     transform: translateX(-50%);
     background-color: var(--bg);
     height: 10em;
+    padding: 1em;
     mask-image: linear-gradient(to top, transparent 0%, black 100%);
     animation: fadeIn 0.5s ease-in-out;
   }
@@ -648,5 +649,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 0em;
   }
 }
