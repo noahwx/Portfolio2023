@@ -43,7 +43,7 @@ const Home = () => {
             </div>
 
             <div className="mobile-wrapper">
-                <div className="grid-item-1">
+                <section className="section-">
                     <div className="Home">
                         <Typewriter
                             options={{
@@ -58,9 +58,9 @@ const Home = () => {
                             <img src="https://images.unsplash.com/photo-1590767187868-b8e9ece0974b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1072&q=80" alt=""/>
                         </div>
                     </div>
-                </div>
-                <div className="grid-item-2">2</div>
-                <div className="grid-item-3">3</div>
+                </section>
+                <section className="section-2">2</section>
+                <section className="section-3">3</section>
             </div>
         
         </>
