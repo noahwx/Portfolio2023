@@ -44,6 +44,7 @@ const Header = () => {
             </div>
             <div className='MobileNav'>
                 <button to='/' className='NavLogo' onClick={handleOpen}> <img src={logo} alt="logo" /> </button>
+                <h3 className='MobileNav-Popup'>Menu</h3>
                 { open ? (
                     <div className='NavItems'>
                         <NavLink to='/' className='NavItem' onClick={handleMenuOne}>Home</NavLink>

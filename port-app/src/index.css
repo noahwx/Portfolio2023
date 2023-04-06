@@ -441,6 +441,9 @@ footer {
     background: none;
     border: none;
     z-index: 99;
+    animation: 
+      bounce 0.5s 1s ease-in-out,
+      fadeIn 0.5s ease-in-out;
   }
 
   .NavItems {
@@ -471,6 +474,48 @@ footer {
     }
     100% {
       opacity: 1;
+    }
+  }
+
+  .MobileNav-Popup {
+    position: absolute;
+    bottom: 1em;
+    left: 6em;
+    font-size: clamp(1.5rem, 3vw, 1.5rem);
+    animation: slideOut 2s linear;
+    opacity: 0;
+  }
+
+  @keyframes slideOut {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }  
+    25%, 35%, 45%, 55%, 65%, 75%, 85% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
     }
   }
 
