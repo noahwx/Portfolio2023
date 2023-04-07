@@ -805,4 +805,10 @@ footer {
     height: 100vh;
     max-width: 100vw;
   }
+
+  .Blog-Heading {
+    font-size: clamp(2rem, 4vw, 2rem);
+    font-weight: 700;
+    padding-top: 2em;
+  }
 }

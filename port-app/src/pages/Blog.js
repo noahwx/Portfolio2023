@@ -4,23 +4,18 @@ const Blog = () => {
     return ( 
         <>
             <div className="wrapper">
-                <div className="grid-item-1">
-                    1 - Blog
-                </div>
-                <div className="grid-item-2">
-                    2
-                </div>
-                <div className="grid-item-3">
-                    3
-                </div>
-                <div className="grid-item-4">
-                    4
-                </div>
+                <section className="section-1">
+                    <h1 className="Blog-Heading">Blog</h1>
+                </section>
+                <section className="section-2"></section>
+                <section className="section-3"></section>
             </div>
             <div className="mobile-wrapper">
-                <div className="grid-item-1">1</div>
-                <div className="grid-item-2">2</div>
-                <div className="grid-item-3">3</div>
+                <section className="section-1">
+                    <h1 className="Blog-Heading">Blog</h1>
+                </section>
+                <section className="section-2"></section>
+                <section className="section-3"></section>
             </div>
         </>
      );
