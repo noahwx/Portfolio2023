@@ -584,7 +584,7 @@ footer {
     font-size: clamp(0.85rem, 2vw, 0.85rem);
     font-weight: 400;
     color: var(--text);
-    padding-top: 0.5em;
+    padding-top: 0.2em;
   }
 
   .Contact {
