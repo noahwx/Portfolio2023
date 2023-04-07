@@ -564,13 +564,14 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 1em;
+    padding-top: 5em;
   } 
 
   .Experince-Item {
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
     margin-top: 1em;
     margin-bottom: 1em;
-    height: 20vh;
+    height: auto;
   }
 
   .Experince-Heading {
@@ -581,8 +582,8 @@ footer {
   }
 
   .Experince-Paragraph {
-    font-size: clamp(0.8rem, 2vw, 0.8rem);
-    font-weight: 400;
+    font-size: clamp(1.5rem, 3vw, 1.5rem);
+    font-weight: 200;
     color: var(--text);
     padding-top: 0.2em;
   }
