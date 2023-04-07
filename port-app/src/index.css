@@ -434,7 +434,7 @@ footer {
     left: 50%;
     transform: translateX(-50%);
     z-index: 999;
-    height: 5em;
+    height: 10vh;
   }
 
   .NavLogo {
@@ -452,13 +452,12 @@ footer {
     transform: translateX(-50%);
     background-color: var(--bg);
     height: 10em;
-    padding: 1em;
     mask-image: linear-gradient(to top, transparent 0%, black 100%);
     animation: fadeIn 0.5s ease-in-out;
   }
 
   .NavItem {
-    padding: 0.4em;
+    padding: 0.3em;
   }
 
   .NavItem.active {
