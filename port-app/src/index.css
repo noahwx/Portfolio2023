@@ -581,7 +581,7 @@ footer {
   }
 
   .Experince-Paragraph {
-    font-size: clamp(0.8rem, 2vw, 0.8rem);
+    font-size: clamp(0.9rem, 2vw, 0.9rem);
     font-weight: 400;
     color: var(--text);
     padding-top: 0.5em;
