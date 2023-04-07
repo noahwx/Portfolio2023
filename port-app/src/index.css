@@ -617,13 +617,14 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 0.5em;
+    width: 20em;
   }
 
   label {
     font-size: clamp(1.5rem, 3vw, 1.5rem);
     font-weight: 500;
     color: var(--text);
-    padding-top: 0.2em;
+    padding-top: 0.4em;
     padding-bottom: 0.2em;
   }
 
@@ -636,6 +637,7 @@ footer {
     border-bottom: 2px solid var(--text);
     background-color: var(--bg);
     width: 100%;
+    margin-top: 1em;
     margin-bottom: 1em;
   }
 
@@ -829,12 +831,6 @@ footer {
     height: 50vh;
     border-radius: 0;
     background: none;
-  }
-
-  .Contact-Heading {
-    font-size: clamp(2rem, 4vw, 2rem);
-    font-weight: 700;
-    padding-top: 2em;
   }
 
   .Contact-Content {
