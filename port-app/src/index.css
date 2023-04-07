@@ -350,6 +350,15 @@ footer {
   transform: translateY(40%);
 }
 
+.Blog-Heading {
+  display: flex;
+  justify-content: center;
+  font-size: clamp(4rem, 8vw, 4rem);
+  font-weight: 700;
+  color: var(--text);
+  padding-bottom: 1em;
+}
+
 .Contact {
   display: block;
   flex-direction: column;
@@ -810,5 +819,37 @@ footer {
     font-size: clamp(2rem, 4vw, 2rem);
     font-weight: 700;
     padding-top: 2em;
+  }
+
+  .Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border-radius: 0;
+    background: none;
+  }
+
+  .Contact-Heading {
+    font-size: clamp(2rem, 4vw, 2rem);
+    font-weight: 700;
+    padding-top: 2em;
+  }
+
+  .Contact-Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 1em;
+  }
+
+  .Contact-Link {
+    font-size: clamp(2rem, 4vw, 2rem);
+    font-weight: 500;
+    color: var(--text);
   }
 }
