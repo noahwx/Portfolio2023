@@ -7,17 +7,13 @@ import Header from './components/Header';
 import Main from './components/Main';
 
 // VK      M.I.SSS
-// Version 0.7.700
+// Version 0.7.701
 
 function App() {
 
-  const element = document.getElementById('target');
-
-  document.getElementById('button').addEventListener('click', () => {
-    if (screenfull.isEnabled) {
-      screenfull.request(element, {navigationUI: 'hide'});
-    }
-  });
+  if (screenfull.isEnabled) {
+    screenfull.request();
+  }
 
   return (
     <>
