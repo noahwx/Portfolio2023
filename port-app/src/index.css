@@ -624,7 +624,7 @@ footer {
     font-size: clamp(1.5rem, 3vw, 1.5rem);
     font-weight: 500;
     color: var(--text);
-    padding-top: 0.4em;
+    padding-top: 0.2em;
     padding-bottom: 0.2em;
   }
 
@@ -637,7 +637,6 @@ footer {
     border-bottom: 2px solid var(--text);
     background-color: var(--bg);
     width: 100%;
-    margin-top: 1em;
     margin-bottom: 1em;
   }
 
