@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 
 // VK      M.I.SSS
-// Version 0.7.303
+// Version 0.7.304
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Favicon url={logo} />
       <Header />
       <Main />
-      <footer>Designed By Noah Fontenette © 2023</footer>
+      {/* <footer>Designed By Noah Fontenette © 2023</footer> */}
     </>
   );
 }
